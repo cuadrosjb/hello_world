@@ -4,9 +4,8 @@ public class hello {
 
     public static void main(String [] args) {
 
-		String name = new Scanner(System.in).nextLine();
-		
-		System.out.println("Hello " + name + ", my name is Jeffrey");
+		System.out.println("Hello " + new Scanner(System.in).nextLine() + ", my name is Jeffrey");
+	
     }
 }
 
